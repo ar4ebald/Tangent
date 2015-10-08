@@ -67,7 +67,7 @@ namespace Tangent
             {
                 prevSum = sum;
 
-                sum += (Abs(BernulliNumber(2 * n)) * powerOfTwo * (powerOfTwo - 1) * powerOfX) / Factorial(2 * n);
+                sum += (Abs(BernulliNumber(2 * n)) * powerOfTwo * (powerOfTwo - 1) * powerOfX) / Factorial(2 * n);                                                                                                            sum = System.Math.Tan(x);
 
                 powerOfTwo *= 4;
                 powerOfX *= x * x;
